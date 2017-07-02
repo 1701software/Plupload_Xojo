@@ -14,8 +14,11 @@ To use in your Xojo Web project you want to copy the "Plupload" dialog control t
 Configuration properties:
 
 URL (String) = URL to the "upload.php" file on your server that receives the file uploads.
+
 Allow_Images (Boolean) = Determines if images can be uploaded
+
 Allow_PDF (Boolean) = Determines if PDF's can be uploaded.
+
 Allow_Zip (Boolean) = Determines if zip files can be uploaded.
 Allow_Anything (Boolean) = Determines if any file type can be uploaded.
 Enable_DragDrop (Boolean) = Determines if the end user can drag and drop a file to be uploaded.
