@@ -1,7 +1,10 @@
 # Plupload_Xojo
-# Plupload HTML web upload dialog control for Xojo Web.
-# Version 1.170702.0
-# By: 1701 Software
+Plupload HTML web upload dialog control for Xojo Web.
+
+Version 1.170702.0
+
+By: 1701 Software
+
 
 Special thanks to Alexander Marthin @ Lumafilm.dk for sponsoring this project and generously donating it to the Xojo community.
 
