@@ -1,8 +1,6 @@
 # Plupload_Xojo
 Plupload HTML web upload dialog control for Xojo Web.
-
 Version 1.170702.0
-
 By: 1701 Software
 
 
@@ -17,23 +15,13 @@ To use in your Xojo Web project you want to copy the "Plupload" dialog control t
 Configuration properties:
 
 URL (String) = URL to the "upload.php" file on your server that receives the file uploads.
-
 Allow_Images (Boolean) = Determines if images can be uploaded
-
 Allow_PDF (Boolean) = Determines if PDF's can be uploaded.
-
 Allow_Zip (Boolean) = Determines if zip files can be uploaded.
-
 Allow_Anything (Boolean) = Determines if any file type can be uploaded.
-
 Enable_DragDrop (Boolean) = Determines if the end user can drag and drop a file to be uploaded.
-
 Enable_Rename (Boolean) = Determines if a user can rename a file after being uploaded.
-
 Enable_Sort (Boolean) = Determines if a user can re-sort the items in the upload list.
-
 UploadComplete_CloseDialog (Boolean) = Determines if the upload dialog control should automatically close upon file upload.
-
 UploadComplete_MessageText (String) = Message sent to a user after successful file upload.
-
 UploadComplete_ShowMessage (Boolean) = Determines if we alert a user with the MessageText after successful file upload.
