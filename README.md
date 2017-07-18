@@ -13,7 +13,11 @@ Plupload is a widely used HTML/javascript web upload control facilitating the up
 
 Our objective here was to implement a web dialog control that presents a fully featured upload control powered by Plupload. Plupload can upload to any web server but by default provides a PHP script to facilitate file uploads. This repository contains a "www" folder which are the scripts and assets that need to be uploaded to your web server in order to facilitate the uploads. The "www/uploads" folder is where files are saved upon upload (configurable - see below).
 
-To use in your Xojo Web project you want to copy the "Plupload" dialog control to your project. See the "btnShowUploader.Action" event in the example project for details on how to instantiate, configure, and show the control. 
+To use in your Xojo Web project you want to copy the "Plupload" dialog control to your project. See the "btnShowUploader.Action" event in the example project for details on how to instantiate, configure, and show the control.
+
+You must also tweak the 'App.HTMLHeader' property using the Xojo IDE inspector to tweak the fixed URL to the javascript assets you uploaded. You will see "http://localhost:8888" sprinkled in there as URL's for the Plupload assets. You want to change that to the same URL you use below when configuring the dialog control.
+
+If you need any assistance please reply to this Xojo forum post: https://forum.xojo.com/41644-open-source-upload-control-for-xojo-web
 
 -----------------------------------------------------
 
